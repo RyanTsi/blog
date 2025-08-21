@@ -3,10 +3,8 @@ title: ArchLinux安装指南
 sticky: 0
 mathjax: true
 date: 2023-08-01 15:33:49
-categories:
-    - 操作系统
-tags:
-    - Linux
+categories: [操作系统]
+tags: [Linux]
 excerpt: ArchLinux入指南，简述了一些步骤以及其中的一些概念。
 cover:
 ---

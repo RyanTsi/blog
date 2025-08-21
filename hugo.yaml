@@ -14,73 +14,75 @@ minify:
 
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
-  title: Rusite
-  description: "SolaRyan Blog"
-  keywords: [Blog, Portfolio, PaperMod]
+  title: 'Rusite'
+  description: 'Rusite is a Hugo theme for personal blog.'
+  author: 'SolaRyan'
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    # limit: 10 # refer: https://www.fusejs.io/api/methods.html#search
+    keys: ["title", "permalink", "summary", "content"]
+  keywords: [Blog]
   author: SolaRyan
-  # author: ["Me", "You"] # multiple authors
-  images: ["<link or path of image for opengraph, twitter-cards>"]
-  DateFormat: "January 2, 2006"
+  # Details https://gohugo.io/functions/time/format/
+  DateFormat: "2006-01-02"
+  ## 
   defaultTheme: auto # dark, light
   disableThemeToggle: false
-
+  ## 
   ShowReadingTime: false
-  ShowShareButtons: true
-  ShowPostNavLinks: false
+  ShowPostNavLinks: true
   ShowBreadCrumbs: true
-  ShowCodeCopyButtons: false
-  ShowWordCount: true
-  ShowRssButtonInSectionTermList: true
+
+  ShowCodeCopyButtons: true
+
+  ShowWordCount: false
+  ShowRssButtonInSectionTermList: false
+  
   UseHugoToc: true
-  disableSpecial1stPost: false
-  disableScrollToTop: true
+  disableSpecial1stPost: true
+  disableScrollToTop: false
 
   hidemeta: false
   hideSummary: false
   showtoc: true
   tocopen: false
 
-  assets:
-    # disableHLJS: true # to disable highlight.js
-    # disableFingerprinting: true
-    favicon: "<link / abs url>"
-    favicon16x16: "<link / abs url>"
-    favicon32x32: "<link / abs url>"
-    apple_touch_icon: "<link / abs url>"
-    safari_pinned_tab: "<link / abs url>"
-
-  label:
-    text: "Home"
-    icon: /apple-touch-icon.png
-    iconHeight: 35
-
   # profile-mode
   profileMode:
-    enabled: false # needs to be explicitly set
-    title: ExampleSite
-    subtitle: "This is subtitle"
-    imageUrl: "<img location>"
+    enabled: true # needs to be explicitly set
+    title: "Rusite"
+    subtitle: "Ciallo～ (∠・ω< )⌒★"
+    imageUrl: "/images/avatar.jpg"
     imageWidth: 120
     imageHeight: 120
-    imageTitle: my image
-    buttons:
-      - name: Posts
-        url: posts
-      - name: Tags
-        url: tags
+    # imageTitle: "SolaRyan"
+    # buttons:
+    #   - name: Github
+    #     url: "https://github.com/"
+    #   - name: Posts
+    #     url: posts
+    #   - name: Tags
+    #     url: tags
 
   # home-info mode
   homeInfoParams:
     Title: "RuSite"
-    Content: Welcome to my blog
+    Content: "Ciallo～ (∠・ω< )⌒★"
 
   socialIcons:
-    - name: x
-      url: "https://x.com/"
-    - name: stackoverflow
-      url: "https://stackoverflow.com"
+    - name: bilibili
+      url: "https://space.bilibili.com/285870200"
+    - name: zhihu
+      url: "https://www.zhihu.com/people/qi-jie-77-48"
     - name: github
-      url: "https://github.com/"
+      url: "https://github.com/RyanTsi"
+    - name: qq
+      url: "tencent://message/?uin=466010106"
 
   analytics:
     google:
@@ -113,20 +115,27 @@ params:
     keys: ["title", "permalink", "summary", "content"]
 menu:
   main:
+    - identifier: Blog
+      name: Blog
+      url: /posts/
+      weight: 10
+    - identifier: Archives
+      name: Archives
+      url: /archives/
+      weight: 20
     - identifier: categories
       name: categories
       url: /categories/
-      weight: 10
+      weight: 30
     - identifier: tags
       name: tags
       url: /tags/
-      weight: 20
+      weight: 40
     - identifier: example
       name: example.org
       url: https://example.org
-      weight: 30
+      weight: 50
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
-pygmentsUseClasses: true
 markup:
   highlight:
     noClasses: false
@@ -135,3 +144,8 @@ markup:
     # guessSyntax: true
     # lineNos: true
     # style: monokai
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON # necessary for search
