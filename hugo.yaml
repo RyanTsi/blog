@@ -17,6 +17,10 @@ params:
   title: 'Rusite'
   description: 'Rusite is a Hugo theme for personal blog.'
   author: 'SolaRyan'
+  visitRecord: true
+  ShowICPLicensing: true
+  ICP Licensing: 
+
   fuseOpts:
     isCaseSensitive: false
     shouldSort: true
@@ -39,10 +43,9 @@ params:
   ShowBreadCrumbs: true
 
   ShowCodeCopyButtons: true
-
-  ShowWordCount: false
+  ShowWordCount: true
   ShowRssButtonInSectionTermList: false
-  
+
   UseHugoToc: true
   disableSpecial1stPost: true
   disableScrollToTop: false
@@ -51,7 +54,7 @@ params:
   hideSummary: false
   showtoc: true
   tocopen: false
-
+  
   # profile-mode
   profileMode:
     enabled: true # needs to be explicitly set
@@ -81,8 +84,8 @@ params:
       url: "https://www.zhihu.com/people/qi-jie-77-48"
     - name: github
       url: "https://github.com/RyanTsi"
-    - name: qq
-      url: "tencent://message/?uin=466010106"
+    - name: RSS
+      url: "/index.xml"
 
   analytics:
     google:
@@ -93,14 +96,14 @@ params:
       SiteVerificationTag: "XYZabc"
 
   cover:
-    hidden: true # hide everywhere but not in structured data
-    hiddenInList: true # hide on list pages and home
-    hiddenInSingle: true # hide on single page
+    hidden: false # hide everywhere but not in structured data
+    hiddenInList: false # hide on list pages and home
+    hiddenInSingle: false # hide on single page
 
-  editPost:
-    URL: "https://github.com/<path_to_repo>/content"
-    Text: "Suggest Changes" # edit text
-    appendFilePath: true # to append file path to Edit link
+  # editPost:
+  #   URL: "https://github.com/<path_to_repo>/content"
+  #   Text: "Edit" # edit text
+  #   appendFilePath: true # to append file path to Edit link
 
   # for search
   # https://fusejs.io/api/options.html
@@ -115,35 +118,43 @@ params:
     keys: ["title", "permalink", "summary", "content"]
 menu:
   main:
+    - identifier: Home
+      name: Home
+      url: /
+      weight: 10
     - identifier: Blog
       name: Blog
       url: /posts/
-      weight: 10
+      weight: 20
     - identifier: Archives
       name: Archives
       url: /archives/
-      weight: 20
+      weight: 30
     - identifier: categories
       name: categories
       url: /categories/
-      weight: 30
+      weight: 40
     - identifier: tags
       name: tags
       url: /tags/
-      weight: 40
-    - identifier: example
-      name: example.org
-      url: https://example.org
       weight: 50
+    - identifier: search
+      name: search
+      url: /search/
+      weight: 60
+    - identifier: about
+      name: about
+      url: /about/
+      weight: 70
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 markup:
   highlight:
     noClasses: false
-    # anchorLineNos: true
-    # codeFences: true
-    # guessSyntax: true
-    # lineNos: true
-    # style: monokai
+    anchorLineNos: true
+    codeFences: true
+    guessSyntax: true
+    lineNos: true
+    style: monokai
 outputs:
   home:
     - HTML

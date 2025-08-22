@@ -5,12 +5,12 @@ mathjax: true
 date: 2024-01-28 10:05:18
 categories: [操作系统]
 tags: [Linux]
-description: 介绍一些我在使用 linux 过程中使用的软件，做一个资料的整合，避免日后需要的时候重复去网上搜索。
+summary: 介绍一些我在使用 linux 过程中使用的软件，做一个资料的整合，避免日后需要的时候重复去网上搜索。
 cover:
     image: "images/avatar.jpg" # image path/url
-    caption: "16" # display caption under cover
-    alt: "6" # alt text
-    relative: false # when using page bundles set this to true
+    caption: "" # display caption under cover
+    alt: "" # alt text
+    relative: true # when using page bundles set this to true
     responsiveImages: false # generation of responsive cover images
     hidden: false # only hide on current single page
 ---
@@ -21,9 +21,9 @@ cover:
 
 基于 X11 的一个 WM ，简单好用。
 
-官方仓库：https://git.suckless.org/dwm
+官方仓库: https://git.suckless.org/dwm/
 
-我修改后的：https://github.com/RyanTsi/dwm
+我修改后的: https://github.com/RyanTsi/dwm/
 
 主要基于自己习惯的快捷键进行了调整，安装了一些补丁。之后也决定自己修改部分代码上去。
 
@@ -35,7 +35,7 @@ cover:
 
 一个利用 GPU 进行渲染 Terminal 。当时记得用 suckless 的 st 有一些显示问题就换称了 alacritty。
 
-官方wiki：https://alacritty.org/config-alacritty.html
+官方wiki: https://alacritty.org/config-alacritty.html
 
 ### ranger
 
@@ -173,7 +173,7 @@ nvtop GPU 资源管理窗口。
 
 ### Clash
 
-内容参考https://a76yyyy.github.io/clash/
+内容参考 https://a76yyyy.github.io/clash/
 
 **创建 daemon**
 
@@ -213,7 +213,7 @@ Host github.com
 
 **配置 web 管理**
 
-web 管理面板代码：https://go.runba.cyou/ssr-download/clash-dashboard.tar.gz
+web 管理面板代码: https://go.runba.cyou/ssr-download/clash-dashboard.tar.gz
 
 在 `config.yaml` 中添加如下代码
 

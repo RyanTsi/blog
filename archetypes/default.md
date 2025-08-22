@@ -3,13 +3,13 @@ date: '{{ .Date }}'
 draft: true
 title: '{{ replace .File.ContentBaseName "-" " " | title }}'
 tags: []
+categories: []
 author: SolaRyan
-# author: ["Me", "You"] # multiple authors
 showToc: true
 TocOpen: false
 hidemeta: false
 comments: false
-description: "Desc Text."
+summary: "<Text>"
 canonicalURL: "https://canonical.url/to/page"
 disableHLJS: true # to disable highlightjs
 disableShare: false
