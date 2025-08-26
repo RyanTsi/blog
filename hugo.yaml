@@ -19,8 +19,8 @@ params:
   author: 'SolaRyan'
   visitRecord: true
   ShowICPLicensing: true
-  ICP Licensing: 
-
+  ICPLicensing: 
+    value: '浙ICP备2025191223号-1 xxxxxxxxxxxxxxxxxx'
   fuseOpts:
     isCaseSensitive: false
     shouldSort: true
