@@ -18,9 +18,10 @@ params:
   description: 'Rusite is a Hugo theme for personal blog.'
   author: 'SolaRyan'
   visitRecord: true
-  ShowICPLicensing: true
-  ICPLicensing: 
-    value: '浙ICP备2025191223号-1 xxxxxxxxxxxxxxxxxx'
+  ShowFilingNumber: true
+  FilingNumber: 
+    ICPFilingNumber: '浙ICP备2025191223号-1'
+    PSCFilingNumber: '浙公网安备33019202002708号'
   fuseOpts:
     isCaseSensitive: false
     shouldSort: true
