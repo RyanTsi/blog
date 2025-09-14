@@ -1,6 +1,6 @@
-baseURL: https://example.org/
+baseURL: https://solarain.cloud/
 languageCode: zh-cn
-title: Rusite
+title: 晓染的天空
 theme: SolaRain
 
 enableRobotsTXT: true
@@ -14,8 +14,8 @@ minify:
 
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
-  title: 'Rusite'
-  description: 'Rusite is a Hugo theme for personal blog.'
+  title: '晓染的天空'
+  description: '晓染的天空 is a personal blog.'
   author: 'SolaRyan'
   visitRecord: true
   ShowFilingNumber: true
@@ -59,7 +59,7 @@ params:
   # profile-mode
   profileMode:
     enabled: true # needs to be explicitly set
-    title: "Rusite"
+    title: "晓染的天空"
     subtitle: "Ciallo～ (∠・ω< )⌒★"
     imageUrl: "/images/avatar.jpg"
     imageWidth: 120
