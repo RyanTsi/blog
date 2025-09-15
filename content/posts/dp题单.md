@@ -1,8 +1,8 @@
 ---
 title: DP 做题记录
 date: 2022-11-15 11:23:29
-categories: [算法竞赛]
-tags: [动态规划, 题单/题解]
+categories: [算法]
+tags: [动态规划, 题解]
 summary: 一个dp题单，后续会加新的题进来...
 math: true
 ---

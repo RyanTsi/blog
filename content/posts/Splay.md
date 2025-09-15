@@ -1,9 +1,9 @@
 ---
 title: Splay
 date: 2022-11-28 21:21:29
-categories: ['算法竞赛']
+categories: ['算法']
 tags: ['数据结构', 'Splay']
-summary: 一种很帅的平衡树，暂时先只贴了代码...
+summary: 平衡树的一种实现，是 Link Cut Tree 的基础。
 math: true
 ---
 
