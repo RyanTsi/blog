@@ -3,9 +3,8 @@ title: Splay
 date: 2022-11-28 21:21:29
 categories: ['算法竞赛']
 tags: ['数据结构', 'Splay']
-excerpt: 一种很帅的平衡树，暂时先只贴了代码...
-sticky: 0
-mathjax: true
+summary: 一种很帅的平衡树，暂时先只贴了代码...
+math: true
 ---
 
 ```cpp

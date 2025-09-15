@@ -1,18 +1,10 @@
 ---
 title: Linux 常用软件安装及其配置
-sticky: 0
-mathjax: true
+math: true
 date: 2024-01-28 10:05:18
 categories: [操作系统]
 tags: [Linux]
 summary: 介绍一些我在使用 linux 过程中使用的软件，做一个资料的整合，避免日后需要的时候重复去网上搜索。
-cover:
-    image: "images/avatar.jpg" # image path/url
-    caption: "" # display caption under cover
-    alt: "" # alt text
-    relative: true # when using page bundles set this to true
-    responsiveImages: false # generation of responsive cover images
-    hidden: false # only hide on current single page
 ---
 
 介绍一些我在使用 Linux  过程中使用的软件，基本仅涉及安装、配置部分，不涉及软件的原理。

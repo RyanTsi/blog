@@ -3,9 +3,8 @@ title: rust 小记
 date: 2022-11-22 10:01:03
 categories: [编程技能]
 tags: [rust]
-excerpt: rust是一种比较新的语言，对标cpp，拥有优越的性能和安全的内存，非常适合高并发的软件，相较于其他语言来说比较难入门，这里给出了部分简单语法。
-sticky: 0
-mathjax: true
+summary: rust是一种比较新的语言，对标cpp，拥有优越的性能和安全的内存，非常适合高并发的软件，相较于其他语言来说比较难入门，这里给出了部分简单语法。
+math: true
 ---
 
 ## 入门

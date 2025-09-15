@@ -53,8 +53,13 @@ params:
 
   hidemeta: false
   hideSummary: false
+  hideAuthor: true
   showtoc: true
   tocopen: false
+  
+
+  # test
+  searchHidden: true
   
   # profile-mode
   profileMode:

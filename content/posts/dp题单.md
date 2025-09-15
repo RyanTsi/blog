@@ -3,9 +3,8 @@ title: DP 做题记录
 date: 2022-11-15 11:23:29
 categories: [算法竞赛]
 tags: [动态规划, 题单/题解]
-excerpt: 一个dp题单，后续会加新的题进来...
-sticky: 0
-mathjax: true
+summary: 一个dp题单，后续会加新的题进来...
+math: true
 ---
 
 这里多数问题只做简单解释，对部分题目给出链接细说。

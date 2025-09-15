@@ -4,23 +4,12 @@ draft: true
 title: '{{ replace .File.ContentBaseName "-" " " | title }}'
 tags: []
 categories: []
-author: SolaRyan
-showToc: true
-TocOpen: false
-hidemeta: false
 comments: false
 summary: "<Text>"
 canonicalURL: "https://canonical.url/to/page"
 disableHLJS: true # to disable highlightjs
 disableShare: false
-disableHLJS: false
-hideSummary: false
-searchHidden: true
-ShowBreadCrumbs: true
-ShowPostNavLinks: true
-ShowWordCount: true
-ShowRssButtonInSectionTermList: true
-UseHugoToc: true
+
 cover:
     image: "<image path/url>" # image path/url
     caption: "<text>" # display caption under cover
