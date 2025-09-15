@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # 配置参数
-LOCAL_DIR="/mnt/c/Users/sola/Documents/blog/public/"
+LOCAL_DIR="${LOCAL_DIR:-'/mnt/c/Users/sola/Documents/blog/public/'}"
 REMOTE_DIR="/var/www/solarain"
 REMOTE_USER="root"  # 替换为远程服务器用户名
 REMOTE_HOST="${REMOTE_HOST:-127.0.0.1}"  # 替换为远程服务器IP/域名，默认从环境变量中读取到这个数据。
