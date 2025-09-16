@@ -56,7 +56,8 @@ params:
   hideAuthor: true
   showtoc: true
   tocopen: false
-  
+  ShowTags: true
+  ShowCategories: true
 
   # test
   searchHidden: true
