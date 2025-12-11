@@ -22,17 +22,7 @@ params:
   FilingNumber: 
     ICPFilingNumber: '浙ICP备2025191223号-1'
     PSCFilingNumber: '浙公网安备33019202002708号'
-  fuseOpts:
-    isCaseSensitive: false
-    shouldSort: true
-    location: 0
-    distance: 1000
-    threshold: 0.4
-    minMatchCharLength: 0
-    # limit: 10 # refer: https://www.fusejs.io/api/methods.html#search
-    keys: ["title", "permalink", "summary", "content"]
   keywords: [Blog]
-  author: SolaRyan
   # Details https://gohugo.io/functions/time/format/
   DateFormat: "2006-01-02"
   ## 
